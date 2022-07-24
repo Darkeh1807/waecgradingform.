@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        box-sizing: border-box;
+     background-color: rgb(43, 141, 232);
+}
+.waecForm{
+    height: 70vh;
+    width: 40vw;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        box-sizing: border-box;
+    margin-top:66px ;
+    margin-left: 350px;
+    background-color: white;
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, .25);
+    padding: 35px;
+}
+.heading{
+    color:  rgb(43, 141, 232);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form{
+  
+    background-color: white;
+}
+
+label{
+    font-size: 18px;
+    font-weight: 800;
+    color: black;
+}
+
+input{
+    width: 20vw;
+    height: 45px;
+    border-radius: 0px;
+    border: 2px solid rgba(128, 128, 128, 0.231);
+    box-sizing: border-box;
+    background-color: rgba(128, 128, 128, 0.501);
+}
+input::placeholder{
+    font-size: 15px;
+    text-align: center;
+    color: #000;
+}
+button{
+    width: 15vw;
+        height: 45px;
+        background-color:rgb(3, 33, 46) ;
+        color: white;
+        font-weight: bold;
+        margin-left: 15px;
+        margin-top: 25px;
+}
+
+.result{
+    margin-top: 25px;
+    margin-left: 23px;
+    color:  rgb(43, 141, 232);
+    font-size: 15px;
+}
+
+@media screen and (max-width:480px) {
+    body{
+        background-color: rgb(43, 141, 232);
+    }
+    .waecForm{
+        margin-left: 20px;
+        width: 360px;
+        height: 500px;
+    }
+    input{
+        width: 160px;
+    }
+    button{
+        width: 132px;
+    }
+}
