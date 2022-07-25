@@ -28,6 +28,7 @@ body{
     color:  rgb(43, 141, 232);
     font-size: 24px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 form{
