@@ -28,7 +28,7 @@ body{
     color:  rgb(43, 141, 232);
     font-size: 24px;
     margin-bottom: 20px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 form{
@@ -79,8 +79,8 @@ button{
         background-color: rgb(43, 141, 232);
     }
     .waecForm{
-        margin-left: 20px;
-        width: 360px;
+        margin-left: 30px;
+        width: 220px;
         height: 500px;
     }
     input{
@@ -90,3 +90,22 @@ button{
         width: 132px;
     }
 }
+
+@media screen and (min-width:480px) {
+    body{
+        background-color: orange;
+    }
+    .waecForm{
+        margin-left: 50px;
+           max-width: 220px;
+       height: 500px;
+    }
+
+     input{
+        width: 160px;
+    }
+    button{
+        width: 132px;
+    }
+}
+
